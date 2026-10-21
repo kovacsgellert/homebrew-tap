@@ -1,6 +1,6 @@
 cask "dock-shortcuts" do
-  version "1.2.0"
-  sha256 "0a80f3072a12a24de36c98828b0c14a48455b887ce14c09b947bd17bc517fa1d"
+  version "1.3.0"
+  sha256 "162125f652d2cc8836edc3dc0362affc77641908d765ea2445b0aee77cd89afa"
 
   url "https://github.com/kovacsgellert/dock-shortcuts-mac/releases/download/#{version}/dock-shortcuts-#{version}-macos-arm64.dmg"
   name "DockShortcuts"
