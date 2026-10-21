@@ -26,8 +26,9 @@ cask "dock-shortcuts" do
     <<~EOS
       DockShortcuts needs Accessibility permission:
         System Settings → Privacy & Security → Accessibility.
-      The app is not notarized, so on first launch
-      right-click it and choose Open.
+      The app is not notarized, so Gatekeeper blocks the first launch:
+      open it once, then System Settings → Privacy & Security →
+      Open Anyway (macOS 15+), or right-click → Open (macOS 14).
     EOS
   end
 end
