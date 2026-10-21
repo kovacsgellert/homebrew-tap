@@ -1,6 +1,6 @@
 cask "kanata-gui" do
-  version "0.1.1"
-  sha256 "c7b23d07bd55391cd1ae8e45475870a7e725da54f193c0b72a52e513d545cb19"
+  version "0.1.2"
+  sha256 "6691658125bcebd1f3dd83224d9a7f83c2b04cffa6e1c7e3169d80592c86ddf0"
 
   url "https://github.com/kovacsgellert/kanata-gui-mac/releases/download/#{version}/kanata-gui-#{version}-macos-arm64.dmg"
   name "KanataGUI"
@@ -25,8 +25,9 @@ cask "kanata-gui" do
       for kanata) — follow the prompt in the app on first launch.
       It also needs kanata and the Karabiner VirtualHID driver;
       see the README for the verified versions.
-      The app is not notarized, so on first launch
-      right-click it and choose Open.
+      The app is not notarized, so Gatekeeper blocks the first launch:
+      open it once, then System Settings → Privacy & Security →
+      Open Anyway (macOS 15+), or right-click → Open (macOS 14).
     EOS
   end
 end
