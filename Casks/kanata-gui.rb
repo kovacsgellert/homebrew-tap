@@ -1,6 +1,6 @@
 cask "kanata-gui" do
-  version "0.1.4"
-  sha256 "3b22e5d00368d9610e848bc7095797a99926b6544de497ef7297ce8f357e6828"
+  version "0.2.0"
+  sha256 "4c71a834304fccd7c3c40fc7b3be47d79562bad837e3fa7e9a760f0cfdef706f"
 
   url "https://github.com/kovacsgellert/kanata-gui-mac/releases/download/#{version}/kanata-gui-#{version}-macos-arm64.dmg"
   name "KanataGUI"
