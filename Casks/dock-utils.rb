@@ -1,6 +1,6 @@
 cask "dock-utils" do
-  version "2.1.0"
-  sha256 "4e1eeff27a2e5d4cd54530f32cbd750065929f1ca663aa50bc10551db0a3793f"
+  version "2.2.0"
+  sha256 "2b206456e9a9d1171e3eae80e351c802e18cdc62da3a0a2e6365c28583a1d456"
 
   url "https://github.com/kovacsgellert/dock-utils-mac/releases/download/#{version}/dock-utils-#{version}-macos-universal.dmg"
   name "DockUtils"
