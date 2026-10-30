@@ -17,10 +17,10 @@ cask "dock-utils" do
   app "DockUtils.app"
 
   zap trash: [
-    "~/.config/dock-utils",
     "~/.config/dock-shortcuts",
-    "~/Library/LaunchAgents/com.kovacsgellert.dock-utils.plist",
+    "~/.config/dock-utils",
     "~/Library/LaunchAgents/com.kovacsgellert.dock-shortcuts.plist",
+    "~/Library/LaunchAgents/com.kovacsgellert.dock-utils.plist",
   ]
 
   caveats do
